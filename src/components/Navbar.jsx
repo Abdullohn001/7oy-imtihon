@@ -33,17 +33,14 @@ function Navbar() {
   }, [theme]);
 
   return (
-    <nav className="">
+    <nav className="bg-[#0a051c]">
       <div className="navbar align-elements">
         <div className="navbar-start">
           <NavLink
             to="/"
             className=" btn lg:flex btn-primary text-3xl items-center"
           >
-            <span className="italic font-bold">FN</span>
-            <small className="lowercase text-[15px] flex items-end h-full italic">
-              furnitures
-            </small>
+            <span className="font-bold">C</span>
           </NavLink>
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">

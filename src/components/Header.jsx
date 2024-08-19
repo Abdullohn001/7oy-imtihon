@@ -2,9 +2,10 @@ import { Link } from "react-router-dom";
 import React from "react";
 
 
+
 function Header() {
   return (
-    <div className="btn-info py-2 font-semibold text-black">
+    <div className="btn-info bg-[#474552] py-2 font-semibold text-black">
       <div className="align-elements justify-center flex sm:justify-end">
         <div className="flex gap-x-6 justify-center items-center">
           <Link to="/login" className="link link-hover text-xs sm:text-sm">
