@@ -1,7 +1,10 @@
 import React from "react";
+import { SectionTitle } from "../components";
 
 function Orders() {
-  return <div>Orders</div>;
+  return <div>
+    <SectionTitle text="Your Orders is empty" />
+  </div>;
 }
 
 export default Orders;

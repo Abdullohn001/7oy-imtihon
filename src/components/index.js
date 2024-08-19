@@ -9,4 +9,7 @@ export { default as ProductsContainer } from "./ProductsContainer";
 export { default as Filter } from "./Filter";
 export { default as PaginationsContainer } from "./PaginationsContainer";
 export { default as Loading } from "./Loading";
+export { default as CheckoutForm } from "./CheckoutForm";
+export { default as CartTotals } from "./CartTotals";
+
 
