@@ -1,5 +1,6 @@
 import React from "react";
 import { useRouteError, Link } from "react-router-dom";
+import Loading from "../components/Loading";
 
 function Error() {
   const error = useRouteError();
@@ -27,7 +28,9 @@ function Error() {
 
   return (
     <div className="flex justify-center items-center min-h-[100vh]">
-      <h4 className="text-center font-bold text-4xl">This is some error</h4>
+      <h4 className="text-center font-bold text-4xl">
+        <Loading />
+      </h4>
     </div>
   );
 }
