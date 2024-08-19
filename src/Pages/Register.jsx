@@ -24,6 +24,9 @@ function Register() {
           >
             login
           </Link>
+          <br />
+          Ustoz men api kech ishlagani uchun login va registerni toliq qila
+          olmadim
         </p>
       </Form>
     </section>

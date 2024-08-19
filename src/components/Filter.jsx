@@ -7,7 +7,7 @@ import FormCheckbox from "./FormCheckbox";
 
 function Filter() {
   const { meta, params } = useLoaderData();
-  const { serach, company, category, shipping, order, price } = params;
+  const { company, category, shipping, order, price } = params;
 
   return (
     <Form className="badge-ghost rounded-l-md px-8 py-4 grid gap-x-4  gap-y-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 items-center">

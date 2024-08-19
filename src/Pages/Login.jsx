@@ -28,8 +28,10 @@ function Login() {
         <p>
             Not a memeber yet ?
           <Link to="/register" className="ml-2 link-hover link-primary capitalize">
-            Register
+            Register {' '}
           </Link>
+          <br />
+          Ustoz men api kech ishlagani uchun login va registerni toliq qila olmadim
         </p>
       </Form>
     </section>
