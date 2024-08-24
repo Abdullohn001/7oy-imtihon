@@ -3,6 +3,7 @@ import { Outlet, useNavigation } from "react-router-dom";
 import { Header } from "../components";
 import Navbar from "../components/Navbar";
 import Loading from "../components/Loading";
+import Footer from "../components/footer";
 
 function HomeLayout() {
   const navigation = useNavigation();
@@ -19,6 +20,7 @@ function HomeLayout() {
           <Outlet />
         </main>
       )}
+      <Footer />
     </>
   );
 }

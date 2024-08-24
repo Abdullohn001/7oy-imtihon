@@ -38,9 +38,9 @@ function Navbar() {
         <div className="navbar-start">
           <NavLink
             to="/"
-            className=" btn lg:flex btn-primary text-3xl items-center"
+            className=" btn lg:flex btn-primary  text-3xl items-center"
           >
-            <span className="font-bold">C</span>
+            <span className="font-bold">A</span>
           </NavLink>
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -48,7 +48,7 @@ function Navbar() {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content z-[1] mt-3 p-2 shadow"
+              className="menu menu-sm bg-[#0a051c] rounded-lg dropdown-content z-[1] mt-3 p-2 shadow"
             >
               <NavLinks />
             </ul>
@@ -73,7 +73,6 @@ function Navbar() {
               </span>
             </div>
           </NavLink>
-          
         </div>
       </div>
     </nav>
